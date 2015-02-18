@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.webjars</groupId>
+    <artifactId>polymers</artifactId>
+    <version>0.5.4</version>
+  </parent>
+  
+  <packaging>jar</packaging>
+  
+  <groupId>org.webjars.polymers</groupId>
+  <artifactId>firebase-simple-login</artifactId>
+  <name>firebase-simple-login</name>
+  <description>WebJar for Polymer firebase-simple-login</description>
+
+  <properties>
+    <upstream.version>1.6.4</upstream.version>
+    <upstream.url>https://github.com/firebase/${project.artifactId}/archive/v${upstream.version}.zip</upstream.url>
+    <!--<upstream.module>firebase-bower</upstream.module>-->
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>polymer</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+  </dependencies>
+      
+</project>
