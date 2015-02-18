@@ -14,13 +14,23 @@
   <artifactId>paper-toggle-button</artifactId>
   <name>paper-toggle-button</name>
   <description>WebJar for Polymer paper-toggle-button</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>paper-radio-button</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>font-roboto</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

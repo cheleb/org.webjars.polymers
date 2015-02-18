@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
@@ -8,27 +7,21 @@
     <artifactId>polymers</artifactId>
     <version>0.5.4</version>
   </parent>
-
+  
   <packaging>jar</packaging>
-
+  
   <groupId>org.webjars.polymers</groupId>
   <artifactId>firebase</artifactId>
   <name>firebase</name>
   <description>WebJar for Polymer firebase</description>
 
   <properties>
+    <upstream.github>firebase</upstream.github>
     <upstream.version>2.2.0</upstream.version>
-    <upstream.url>https://github.com/firebase/firebase-bower/archive/v${upstream.version}.zip</upstream.url>
+    <upstream.version.prefix>v</upstream.version.prefix>
     <upstream.module>firebase-bower</upstream.module>
   </properties>
 
-
   <dependencies>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
-    </dependency>
   </dependencies>
-
 </project>

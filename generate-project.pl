@@ -16,10 +16,13 @@ my $email = 'olivier.nouguier@gmail.com';
 my $varProjectArtifactId = '${project.artifactId}';
 my $varProjectVersion = '${project.version}';
 my $varUpstreamVersion = '${upstream.version}';
+my $varUpstreamVersionPrefix = '${upstream.version.prefix}';
+my $varUpstreamGithub = '${upstream.github}';
 my $varUpstreamUrl = '${upstream.url}';
 my $varProjectBuildOutputDirectory = '${project.build.outputDirectory}';
 my $varProjectBuildDirectory = '${project.build.directory}';
 my $varDestDir = '${destDir}';
+my $varBasedir = '${basedir}';
 
 
 
@@ -40,7 +43,7 @@ print ROOT<<"EOT";
 
   <packaging>pom</packaging>
   <groupId>org.webjars</groupId>
-  <artifactId>webco</artifactId>
+  <artifactId>polymers</artifactId>
   <version>$version</version>
   <name>WebComponent Webjars</name>
   <description>WebJar for Polymer</description>
@@ -49,9 +52,12 @@ print ROOT<<"EOT";
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <upstream.version>$varProjectVersion</upstream.version>
-    <upstream.url>https://github.com/Polymer/$varProjectArtifactId/archive/${varUpstreamVersion}.zip</upstream.url>
+    <upstream.version.prefix />
+    <upstream.module>${varProjectArtifactId}</upstream.module>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.url>https://github.com/$varUpstreamGithub/$varProjectArtifactId/archive/$varUpstreamVersionPrefix$varUpstreamVersion.zip</upstream.url>
     <destDir>
-      $varProjectBuildOutputDirectory/META-INF/resources/webjars/webco/$varUpstreamVersion/$varProjectVersion
+      $varProjectBuildOutputDirectory/META-INF/resources/webjars/polymers/$varUpstreamVersion/$varProjectArtifactId
     </destDir>
   </properties>
 
@@ -60,48 +66,76 @@ print ROOT<<"EOT";
 EOT
 
 
-my @components = map { basename($_) } <$polymer_home."/components/*">;
+my @components = <$polymer_home."/components/*">;
 
-#my @components = ("zozo");
-
-foreach my $artifactId (@components) {
+foreach my $project (@components) {
+    my $artifactId = basename($project);
     print ROOT "    <module>$artifactId</module>\n";
-    print "    <module>$artifactId</module>\n";
+
+    open(INFO, "./projectInfo.pl $project|");
+
+    my $lastTag = <INFO>;
+    chomp($lastTag);
+    my $prefix = "";
+    if($lastTag =~ m/^[a-zA-Z]+.*/){
+       if($lastTag =~ m/^([a-zA-Z]+)(.*)$/){
+        $prefix = $1;
+        $lastTag=$2;
+       }
+    }
+    my $github = <INFO>;
+    chomp($github);
+    my @dependencies = <INFO>;
+
+    close INFO;
+
     unless(-d $artifactId){
         mkdir $artifactId;
-        open POM, ">".$artifactId."/pom.xml";
-        system "true > $artifactId/webjar";
-        print POM <<"EOT";
+    }
+    open POM, ">".$artifactId."/pom.xml";
+    system "true > $artifactId/webjar";
+    print POM <<"EOT";
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.webjars</groupId>
-    <artifactId>webco</artifactId>
+    <artifactId>polymers</artifactId>
     <version>0.5.4</version>
   </parent>
   
   <packaging>jar</packaging>
   
-  <groupId>org.webjars.webco</groupId>
+  <groupId>org.webjars.polymers</groupId>
   <artifactId>$artifactId</artifactId>
   <name>$artifactId</name>
   <description>WebJar for Polymer $artifactId</description>
-      
+
+  <properties>
+    <upstream.github>$github</upstream.github>
+    <upstream.version>$lastTag</upstream.version>
+    <upstream.version.prefix>$prefix</upstream.version.prefix>
+  </properties>
+
   <dependencies>
+EOT
+foreach my $dep (@dependencies){
+ chomp($dep);
+  print POM<<"EOT";
     <dependency>
-      <groupId>org.webjars.webco</groupId>
-      <artifactId>polymer</artifactId>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>$dep</artifactId>
       <version>0.5.4</version>
     </dependency>
+EOT
+}
+print POM<<"EOT";
   </dependencies>
-      
 </project>
 EOT
-       close(POM);
-        
-    }
+   close(POM);
+
 
 }
 
@@ -155,9 +189,9 @@ EOT
                 <configuration>
                   <target>
                     <echo message="download archive"/>
-                    <get src="${varUpstreamUrl}" dest="${varProjectBuildDirectory}/${varProjectArtifactId}.zip"/>
+                    <get src="${varUpstreamUrl}" dest="${varBasedir}/${varProjectArtifactId}.zip" skipexisting="true"/>
                     <echo message="unzip archive"/>
-                    <unzip src="${varProjectBuildDirectory}/${varProjectArtifactId}.zip"
+                    <unzip src="${varBasedir}/${varProjectArtifactId}.zip"
                            dest="${varProjectBuildDirectory}"/>
                     <echo message="moving resources"/>
                     <move todir="${varDestDir}">

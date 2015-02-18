@@ -14,13 +14,43 @@
   <artifactId>paper-fab</artifactId>
   <name>paper-fab</name>
   <description>WebJar for Polymer paper-fab</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-icons</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>paper-button</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-icon</artifactId>
+      <version>0.5.4</version>
+    </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>polymer</artifactId>
       <version>0.5.4</version>
     </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>paper-shadow</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>paper-ripple</artifactId>
+      <version>0.5.4</version>
+    </dependency>
   </dependencies>
-      
 </project>

@@ -14,13 +14,22 @@
   <artifactId>TemplateBinding</artifactId>
   <name>TemplateBinding</name>
   <description>WebJar for Polymer TemplateBinding</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>NodeBind</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>observe-js</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

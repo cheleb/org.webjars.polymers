@@ -14,7 +14,13 @@
   <artifactId>core-collapse</artifactId>
   <name>core-collapse</name>
   <description>WebJar for Polymer core-collapse</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
@@ -22,5 +28,4 @@
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

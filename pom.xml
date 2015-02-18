@@ -20,11 +20,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <upstream.version>${project.version}</upstream.version>
+    <upstream.version.prefix />
     <upstream.module>${project.artifactId}</upstream.module>
     <upstream.github>Polymer</upstream.github>
-    <upstream.url>https://github.com/${upstream.github}/${project.artifactId}/archive/${upstream.version}.zip</upstream.url>
+    <upstream.url>https://github.com/${upstream.github}/${project.artifactId}/archive/${upstream.version.prefix}${upstream.version}.zip</upstream.url>
     <destDir>
-      ${project.build.outputDirectory}/META-INF/resources/webjars/polymers/${project.version}/${project.artifactId}
+      ${project.build.outputDirectory}/META-INF/resources/webjars/polymers/${upstream.version}/${project.artifactId}
     </destDir>
   </properties>
 
@@ -180,9 +181,9 @@
     </license>
   </licenses>
   <scm>
-    <url>http://github.com/cheleb/polymers-polymer</url>
-    <connection>scm:git:https://github.com/cheleb/polymers-polymer.git</connection>
-    <developerConnection>scm:git:https://github.com/cheleb/polymers-polymer.git</developerConnection>
+    <url>http://github.com/cheleb/webco-polymer</url>
+    <connection>scm:git:https://github.com/cheleb/webco-polymer.git</connection>
+    <developerConnection>scm:git:https://github.com/cheleb/webco-polymer.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
@@ -191,11 +192,9 @@
     <profile>
       <id>webjar</id>
       <activation>
-
         <file>
           <exists>webjar</exists>
         </file>
-
       </activation>
 
       <build>

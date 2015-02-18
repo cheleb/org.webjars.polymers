@@ -14,13 +14,33 @@
   <artifactId>paper-radio-group</artifactId>
   <name>paper-radio-group</name>
   <description>WebJar for Polymer paper-radio-group</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>font-roboto</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-selector</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-a11y-keys</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>paper-radio-button</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

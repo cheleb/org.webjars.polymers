@@ -14,13 +14,23 @@
   <artifactId>paper-progress</artifactId>
   <name>paper-progress</name>
   <description>WebJar for Polymer paper-progress</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>paper-button</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-range</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

@@ -14,13 +14,18 @@
   <artifactId>jquery2-import</artifactId>
   <name>jquery2-import</name>
   <description>WebJar for Polymer jquery2-import</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
     <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery</artifactId>
+      <version>2.1.3</version>
     </dependency>
   </dependencies>
-      
 </project>

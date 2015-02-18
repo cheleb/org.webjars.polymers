@@ -16,16 +16,11 @@
   <description>WebJar for Polymer web-animations-js</description>
 
   <properties>
+    <upstream.github></upstream.github>
     <upstream.version>1.0.6</upstream.version>
-    <upstream.github>web-animations</upstream.github>
+    <upstream.version.prefix></upstream.version.prefix>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
-    </dependency>
   </dependencies>
-      
 </project>

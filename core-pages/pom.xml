@@ -14,13 +14,18 @@
   <artifactId>core-pages</artifactId>
   <name>core-pages</name>
   <description>WebJar for Polymer core-pages</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>core-selector</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

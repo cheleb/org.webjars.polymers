@@ -16,16 +16,11 @@
   <description>WebJar for Polymer web-animations-next</description>
 
   <properties>
-    <upstream.url>https://github.com/web-animations/web-animations-next/archive/master.zip</upstream.url>
+    <upstream.github></upstream.github>
     <upstream.version>master</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
-    </dependency>
   </dependencies>
-      
 </project>

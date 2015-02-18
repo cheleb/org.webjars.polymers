@@ -18,14 +18,14 @@
   <properties>
     <upstream.github>GoogleWebComponents</upstream.github>
     <upstream.version>0.4.3</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>core-shared-lib</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

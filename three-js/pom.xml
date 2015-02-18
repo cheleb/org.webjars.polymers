@@ -16,8 +16,9 @@
   <description>WebJar for Polymer three-js</description>
 
   <properties>
-    <upstream.version>0.5.0</upstream.version>
     <upstream.github>PolymerLabs</upstream.github>
+    <upstream.version>0.5.0</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
   </properties>
 
   <dependencies>
@@ -27,5 +28,4 @@
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

@@ -14,7 +14,13 @@
   <artifactId>core-input</artifactId>
   <name>core-input</name>
   <description>WebJar for Polymer core-input</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
@@ -22,5 +28,4 @@
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

@@ -14,13 +14,28 @@
   <artifactId>paper-calculator</artifactId>
   <name>paper-calculator</name>
   <description>WebJar for Polymer paper-calculator</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>paper-ripple</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>font-roboto</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-media-query</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

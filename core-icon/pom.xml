@@ -14,13 +14,18 @@
   <artifactId>core-icon</artifactId>
   <name>core-icon</name>
   <description>WebJar for Polymer core-icon</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>core-iconset</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

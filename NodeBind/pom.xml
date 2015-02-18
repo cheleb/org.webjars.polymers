@@ -14,13 +14,12 @@
   <artifactId>NodeBind</artifactId>
   <name>NodeBind</name>
   <description>WebJar for Polymer NodeBind</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+  </properties>
+
   <dependencies>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
-    </dependency>
   </dependencies>
-      
 </project>

@@ -16,17 +16,16 @@
   <description>WebJar for Polymer firebase-simple-login</description>
 
   <properties>
+    <upstream.github>firebase</upstream.github>
     <upstream.version>1.6.4</upstream.version>
-    <upstream.url>https://github.com/firebase/${project.artifactId}/archive/v${upstream.version}.zip</upstream.url>
-    <!--<upstream.module>firebase-bower</upstream.module>-->
+    <upstream.version.prefix>v</upstream.version.prefix>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>firebase</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

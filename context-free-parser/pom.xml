@@ -14,7 +14,13 @@
   <artifactId>context-free-parser</artifactId>
   <name>context-free-parser</name>
   <description>WebJar for Polymer context-free-parser</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
@@ -22,5 +28,4 @@
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

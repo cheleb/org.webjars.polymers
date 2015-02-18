@@ -16,16 +16,16 @@
   <description>WebJar for Polymer extern-generator</description>
 
   <properties>
+    <upstream.github>PolymerLabs</upstream.github>
     <upstream.version>0.5.0</upstream.version>
-    <upstream.url>https://github.com/PolymerLabs/${project.artifactId}/archive/${upstream.version}.zip</upstream.url>
+    <upstream.version.prefix></upstream.version.prefix>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>context-free-parser</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

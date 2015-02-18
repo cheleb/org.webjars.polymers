@@ -14,13 +14,23 @@
   <artifactId>highlightjs-element</artifactId>
   <name>highlightjs-element</name>
   <description>WebJar for Polymer highlightjs-element</description>
-      
+
+  <properties>
+    <upstream.github>Polymer</upstream.github>
+    <upstream.version>0.5.4</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
+  </properties>
+
   <dependencies>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>highlightjs</artifactId>
+      <version>8.4</version>
+    </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>polymer</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>

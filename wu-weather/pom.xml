@@ -16,16 +16,21 @@
   <description>WebJar for Polymer wu-weather</description>
 
   <properties>
-    <upstream.version>0.5.0</upstream.version>
     <upstream.github>PolymerLabs</upstream.github>
+    <upstream.version>0.5.0</upstream.version>
+    <upstream.version.prefix></upstream.version.prefix>
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-shared-lib</artifactId>
+      <version>0.5.4</version>
+    </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>polymer</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
-      
 </project>
