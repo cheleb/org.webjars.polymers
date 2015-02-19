@@ -16,9 +16,8 @@
   <description>WebJar for Polymer web-animations-js</description>
 
   <properties>
-    <upstream.github></upstream.github>
+    <upstream.github>web-animations</upstream.github>
     <upstream.version>1.0.6</upstream.version>
-    <upstream.version.prefix></upstream.version.prefix>
   </properties>
 
   <dependencies>

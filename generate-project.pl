@@ -16,6 +16,7 @@ my $email = 'olivier.nouguier@gmail.com';
 my $varProjectArtifactId = '${project.artifactId}';
 my $varProjectVersion = '${project.version}';
 my $varUpstreamVersion = '${upstream.version}';
+my $varUpstreamModule = '${upstream.module}';
 my $varUpstreamVersionPrefix = '${upstream.version.prefix}';
 my $varUpstreamGithub = '${upstream.github}';
 my $varUpstreamUrl = '${upstream.url}';
@@ -57,7 +58,7 @@ print ROOT<<"EOT";
     <upstream.github>Polymer</upstream.github>
     <upstream.url>https://github.com/$varUpstreamGithub/$varProjectArtifactId/archive/$varUpstreamVersionPrefix$varUpstreamVersion.zip</upstream.url>
     <destDir>
-      $varProjectBuildOutputDirectory/META-INF/resources/webjars/polymers/$varUpstreamVersion/$varProjectArtifactId
+      $varProjectBuildOutputDirectory/META-INF/resources/webjars/polymers/$varProjectVersion/$varProjectArtifactId
     </destDir>
   </properties>
 
@@ -65,6 +66,10 @@ print ROOT<<"EOT";
   <modules>
 EOT
 
+
+my $upstream_modules = {
+   firebase => 'firebase-bower'
+};
 
 my @components = <$polymer_home."/components/*">;
 
@@ -77,7 +82,8 @@ foreach my $project (@components) {
     my $lastTag = <INFO>;
     chomp($lastTag);
     my $prefix = "";
-    if($lastTag =~ m/^[a-zA-Z]+.*/){
+    if($lastTag eq "master"){
+    }elsif($lastTag =~ m/^[a-zA-Z]+.*/){
        if($lastTag =~ m/^([a-zA-Z]+)(.*)$/){
         $prefix = $1;
         $lastTag=$2;
@@ -115,18 +121,55 @@ foreach my $project (@components) {
   <properties>
     <upstream.github>$github</upstream.github>
     <upstream.version>$lastTag</upstream.version>
-    <upstream.version.prefix>$prefix</upstream.version.prefix>
+EOT
+
+   print POM  "<upstream.version.prefix>$prefix</upstream.version.prefix>\n" if $prefix;
+   print POM  "<upstream.module>", $upstream_modules->{$artifactId}, "</upstream.module>" if exists $upstream_modules->{$artifactId};
+   print POM<<"EOT";
   </properties>
 
   <dependencies>
 EOT
+
+
+my $dependencies_hack = {
+  'marked' => {
+     'group' => 'org.webjars',
+     'version' => '0.3.2'
+  },
+  highlightjs => {
+     'group' => 'org.webjars',
+     'version' => '8.4'
+  },
+  jquery2 => {
+   'group' => 'org.webjars',
+   'artifact' => 'jquery',
+   'version' => '2.1.3'
+  },
+  'core-field' => {
+     'artifact' => 'core-label'
+  },
+  'polymer-ajax' => {
+       'artifact' => 'core-ajax'
+  },
+  'polymer-jsonp' => {
+    artifact => 'core-shared-lib'
+   }
+};
+
 foreach my $dep (@dependencies){
  chomp($dep);
+ my ($group, $version) = ("org.webjars.polymers", "0.5.4");
+
+   $group = $dependencies_hack->{$dep}->{'group'} if exists $dependencies_hack->{$dep}->{'group'};
+   $version = $dependencies_hack->{$dep}->{'version'} if exists $dependencies_hack->{$dep}->{'version'};
+   $dep = $dependencies_hack->{$dep}->{'artifact'} if exists $dependencies_hack->{$dep}->{'artifact'};
+
   print POM<<"EOT";
     <dependency>
-      <groupId>org.webjars.polymers</groupId>
+      <groupId>$group</groupId>
       <artifactId>$dep</artifactId>
-      <version>0.5.4</version>
+      <version>$version</version>
     </dependency>
 EOT
 }
@@ -195,7 +238,7 @@ EOT
                            dest="${varProjectBuildDirectory}"/>
                     <echo message="moving resources"/>
                     <move todir="${varDestDir}">
-                      <fileset dir="${varProjectBuildDirectory}/${varProjectArtifactId}-${varUpstreamVersion}"/>
+                      <fileset dir="${varProjectBuildDirectory}/${varUpstreamModule}-${varUpstreamVersion}"/>
                     </move>
                   </target>
                 </configuration>

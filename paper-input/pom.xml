@@ -18,20 +18,9 @@
   <properties>
     <upstream.github>Polymer</upstream.github>
     <upstream.version>0.5.4</upstream.version>
-    <upstream.version.prefix></upstream.version.prefix>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-style</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
-    </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>core-input</artifactId>
@@ -40,6 +29,16 @@
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>core-icon</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-style</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>polymer</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>

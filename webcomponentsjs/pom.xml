@@ -18,7 +18,7 @@
   <properties>
     <upstream.github>Polymer</upstream.github>
     <upstream.version>0.4.2</upstream.version>
-    <upstream.version.prefix>v</upstream.version.prefix>
+<upstream.version.prefix>v</upstream.version.prefix>
   </properties>
 
   <dependencies>

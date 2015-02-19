@@ -18,7 +18,7 @@
   <properties>
     <upstream.github>tcollard</upstream.github>
     <upstream.version>1.0.3</upstream.version>
-    <upstream.version.prefix>v</upstream.version.prefix>
+<upstream.version.prefix>v</upstream.version.prefix>
   </properties>
 
   <dependencies>

@@ -18,28 +18,12 @@
   <properties>
     <upstream.github>Polymer</upstream.github>
     <upstream.version>0.5.4</upstream.version>
-    <upstream.version.prefix>v</upstream.version.prefix>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer-expressions</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer-gestures</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
       <artifactId>webcomponentsjs</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>URL</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>
