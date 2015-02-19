@@ -25,7 +25,7 @@
     <upstream.github>Polymer</upstream.github>
     <upstream.url>https://github.com/${upstream.github}/${project.artifactId}/archive/${upstream.version.prefix}${upstream.version}.zip</upstream.url>
     <destDir>
-      ${project.build.outputDirectory}/META-INF/resources/webjars/polymers/${upstream.version}/${project.artifactId}
+      ${project.build.outputDirectory}/META-INF/resources/webjars/polymers/${project.version}/${project.artifactId}
     </destDir>
   </properties>
 
