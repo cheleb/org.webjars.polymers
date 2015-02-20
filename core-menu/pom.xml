@@ -12,23 +12,18 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-menu</artifactId>
-  <name>core-menu</name>
+  <version>0.5.4</version>
+  <name>core-menu................................[${project.version}]</name>
   <description>WebJar for Polymer core-menu</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-item</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-collapse</artifactId>
+      <artifactId>core-selector</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -38,7 +33,12 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-selector</artifactId>
+      <artifactId>core-item</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-collapse</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

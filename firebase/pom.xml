@@ -12,14 +12,14 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>firebase</artifactId>
-  <name>firebase</name>
+  <version>2.2.0</version>
+  <name>firebase.................................[${project.version}]</name>
   <description>WebJar for Polymer firebase</description>
 
   <properties>
     <upstream.github>firebase</upstream.github>
-    <upstream.version>2.2.0</upstream.version>
-<upstream.version.prefix>v</upstream.version.prefix>
-<upstream.module>firebase-bower</upstream.module>  </properties>
+    <upstream.version.prefix>v</upstream.version.prefix>
+    <upstream.module>firebase-bower</upstream.module>  </properties>
 
   <dependencies>
   </dependencies>

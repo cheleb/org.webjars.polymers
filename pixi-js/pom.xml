@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>pixi-js</artifactId>
-  <name>pixi-js</name>
+  <version>0.5.0</version>
+  <name>pixi-js..................................[${project.version}]</name>
   <description>WebJar for Polymer pixi-js</description>
 
   <properties>
     <upstream.github>PolymerLabs</upstream.github>
-    <upstream.version>0.5.0</upstream.version>
   </properties>
 
   <dependencies>

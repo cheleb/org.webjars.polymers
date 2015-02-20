@@ -12,69 +12,69 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>more-elements</artifactId>
-  <name>more-elements</name>
+  <version>0.5.0</version>
+  <name>more-elements............................[${project.version}]</name>
   <description>WebJar for Polymer more-elements</description>
 
   <properties>
     <upstream.github>PolymerLabs</upstream.github>
-    <upstream.version>0.5.0</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>code-mirror</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>cool-clock</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>x-meta</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>yt-video</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>ace-element</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>google-map</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>smoothie-chart</artifactId>
-      <version>0.5.4</version>
+      <artifactId>notification-elements</artifactId>
+      <version>0.5.0</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>chart-js</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>notification-elements</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>speech-mic</artifactId>
-      <version>0.5.4</version>
+      <version>0.5.0</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>flatiron-director</artifactId>
-      <version>0.5.4</version>
+      <version>0.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>google-map</artifactId>
+      <version>0.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>smoothie-chart</artifactId>
+      <version>0.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>speech-mic</artifactId>
+      <version>0.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>ace-element</artifactId>
+      <version>0.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>code-mirror</artifactId>
+      <version>0.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>cool-clock</artifactId>
+      <version>0.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>x-meta</artifactId>
+      <version>0.5.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>yt-video</artifactId>
+      <version>0.5.0</version>
     </dependency>
   </dependencies>
 </project>

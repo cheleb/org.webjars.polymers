@@ -12,13 +12,13 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>google-code-prettify</artifactId>
-  <name>google-code-prettify</name>
+  <version>1.0.3</version>
+  <name>google-code-prettify.....................[${project.version}]</name>
   <description>WebJar for Polymer google-code-prettify</description>
 
   <properties>
     <upstream.github>tcollard</upstream.github>
-    <upstream.version>1.0.3</upstream.version>
-<upstream.version.prefix>v</upstream.version.prefix>
+    <upstream.version.prefix>v</upstream.version.prefix>
   </properties>
 
   <dependencies>

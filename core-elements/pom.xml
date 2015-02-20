@@ -12,153 +12,18 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-elements</artifactId>
-  <name>core-elements</name>
+  <version>0.5.4</version>
+  <name>core-elements............................[${project.version}]</name>
   <description>WebJar for Polymer core-elements</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-meta</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-media-query</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icons</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-input</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-header-panel</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-collapse</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-selector</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-label</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-transition</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-layout-grid</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-ajax</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-dropdown-menu</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-range</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-docs</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-animated-pages</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-splitter</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-image</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-drawer-panel</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-dropdown</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-style</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-toolbar</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icon-button</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-overlay</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-menu-button</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-drag-drop</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-scroll-threshold</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-label</artifactId>
+      <artifactId>core-shared-lib</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -168,22 +33,22 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>sampler-scaffold</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-pages</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
       <artifactId>core-list</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-tooltip</artifactId>
+      <artifactId>core-input</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-range</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-icons</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -193,22 +58,57 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-signals</artifactId>
+      <artifactId>polymer</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-shared-lib</artifactId>
+      <artifactId>core-scroll-header-panel</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-layout-trbl</artifactId>
+      <artifactId>core-drawer-panel</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-item</artifactId>
+      <artifactId>core-style</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-docs</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-collapse</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-dropdown</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-label</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-scroll-threshold</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-image</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-toolbar</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -218,17 +118,57 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-drag-drop</artifactId>
+      <version>0.5.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-item</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-selector</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-layout-grid</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-media-query</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-header-panel</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-transition</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>sampler-scaffold</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-splitter</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
       <artifactId>core-localstorage</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-tests</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-menu</artifactId>
+      <artifactId>core-animated-pages</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -238,7 +178,67 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-scroll-header-panel</artifactId>
+      <artifactId>core-ajax</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-tooltip</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-overlay</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-icon-button</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-menu-button</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-meta</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-dropdown-menu</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-menu</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-layout-trbl</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-tests</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-pages</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-label</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-signals</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

@@ -12,23 +12,23 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>yt-video</artifactId>
-  <name>yt-video</name>
+  <version>0.5.0</version>
+  <name>yt-video.................................[${project.version}]</name>
   <description>WebJar for Polymer yt-video</description>
 
   <properties>
     <upstream.github>PolymerLabs</upstream.github>
-    <upstream.version>0.5.0</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-ajax</artifactId>
-      <version>0.5.4</version>
+      <artifactId>google-apis</artifactId>
+      <version>0.4.3</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>google-apis</artifactId>
+      <artifactId>core-ajax</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

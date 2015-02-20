@@ -44,8 +44,12 @@ sub last_tag {
   my @tags = reverse(`git tag --sort=version:refname`);
   foreach (@tags){
    chomp;
-   return $_ if m!^v?\d+\.\d+(\.\d{1,4})?$!
+   return $_ if m!^\d+\.\d+(\.\d{1,4})?$!
   }
+  foreach (@tags){
+     chomp;
+     return $_ if m!^v?\d+\.\d+(\.\d{1,4})?$!
+   }
   return "master";
 }
 

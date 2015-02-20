@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>paper-radio-button</artifactId>
-  <name>paper-radio-button</name>
+  <version>0.5.4</version>
+  <name>paper-radio-button.......................[${project.version}]</name>
   <description>WebJar for Polymer paper-radio-button</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

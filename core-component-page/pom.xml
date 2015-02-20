@@ -12,19 +12,19 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-component-page</artifactId>
-  <name>core-component-page</name>
+  <version>0.5.4</version>
+  <name>core-component-page......................[${project.version}]</name>
   <description>WebJar for Polymer core-component-page</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>webcomponentsjs</artifactId>
-      <version>0.5.4</version>
+      <version>0.5.5</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>

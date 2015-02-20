@@ -12,18 +12,18 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-tooltip</artifactId>
-  <name>core-tooltip</name>
+  <version>0.5.4</version>
+  <name>core-tooltip.............................[${project.version}]</name>
   <description>WebJar for Polymer core-tooltip</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-resizable</artifactId>
+      <artifactId>paper-fab</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -33,7 +33,7 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>paper-fab</artifactId>
+      <artifactId>core-icon-button</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -43,7 +43,7 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icon-button</artifactId>
+      <artifactId>core-resizable</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

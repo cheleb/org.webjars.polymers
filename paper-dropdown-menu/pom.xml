@@ -12,43 +12,18 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>paper-dropdown-menu</artifactId>
-  <name>paper-dropdown-menu</name>
+  <version>0.5.4</version>
+  <name>paper-dropdown-menu......................[${project.version}]</name>
   <description>WebJar for Polymer paper-dropdown-menu</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>paper-shadow</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-a11y-keys</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-focusable</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>paper-dropdown</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>paper-item</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-menu</artifactId>
+      <artifactId>core-icons</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -58,17 +33,42 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icons</artifactId>
+      <artifactId>paper-shadow</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>core-collapse</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>paper-dropdown</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-focusable</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-a11y-keys</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>polymer</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-menu</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>paper-item</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

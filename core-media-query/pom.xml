@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-media-query</artifactId>
-  <name>core-media-query</name>
+  <version>0.5.4</version>
+  <name>core-media-query.........................[${project.version}]</name>
   <description>WebJar for Polymer core-media-query</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

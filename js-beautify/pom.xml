@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>js-beautify</artifactId>
-  <name>js-beautify</name>
+  <version>0.5.0</version>
+  <name>js-beautify..............................[${project.version}]</name>
   <description>WebJar for Polymer js-beautify</description>
 
   <properties>
     <upstream.github>PolymerLabs</upstream.github>
-    <upstream.version>0.5.0</upstream.version>
   </properties>
 
   <dependencies>

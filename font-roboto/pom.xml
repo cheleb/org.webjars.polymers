@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>font-roboto</artifactId>
-  <name>font-roboto</name>
+  <version>0.5.5</version>
+  <name>font-roboto..............................[${project.version}]</name>
   <description>WebJar for Polymer font-roboto</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

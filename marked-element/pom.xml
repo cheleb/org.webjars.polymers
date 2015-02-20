@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>marked-element</artifactId>
-  <name>marked-element</name>
+  <version>0.5.4</version>
+  <name>marked-element...........................[${project.version}]</name>
   <description>WebJar for Polymer marked-element</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

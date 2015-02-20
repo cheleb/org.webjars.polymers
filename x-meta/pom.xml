@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>x-meta</artifactId>
-  <name>x-meta</name>
+  <version>0.5.0</version>
+  <name>x-meta...................................[${project.version}]</name>
   <description>WebJar for Polymer x-meta</description>
 
   <properties>
     <upstream.github>PolymerLabs</upstream.github>
-    <upstream.version>0.5.0</upstream.version>
   </properties>
 
   <dependencies>

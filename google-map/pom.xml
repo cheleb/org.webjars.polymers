@@ -12,19 +12,19 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>google-map</artifactId>
-  <name>google-map</name>
+  <version>0.4.1</version>
+  <name>google-map...............................[${project.version}]</name>
   <description>WebJar for Polymer google-map</description>
 
   <properties>
     <upstream.github>GoogleWebComponents</upstream.github>
-    <upstream.version>0.4.1</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>google-apis</artifactId>
-      <version>0.5.4</version>
+      <version>0.4.3</version>
     </dependency>
   </dependencies>
 </project>

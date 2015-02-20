@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>context-free-parser</artifactId>
-  <name>context-free-parser</name>
+  <version>0.5.4</version>
+  <name>context-free-parser......................[${project.version}]</name>
   <description>WebJar for Polymer context-free-parser</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

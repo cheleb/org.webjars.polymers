@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>prettify-element</artifactId>
-  <name>prettify-element</name>
+  <version>0.5.4</version>
+  <name>prettify-element.........................[${project.version}]</name>
   <description>WebJar for Polymer prettify-element</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
@@ -29,7 +29,7 @@
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>google-code-prettify</artifactId>
-      <version>0.5.4</version>
+      <version>1.0.3</version>
     </dependency>
   </dependencies>
 </project>

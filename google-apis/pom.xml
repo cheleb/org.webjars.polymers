@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>google-apis</artifactId>
-  <name>google-apis</name>
+  <version>0.4.3</version>
+  <name>google-apis..............................[${project.version}]</name>
   <description>WebJar for Polymer google-apis</description>
 
   <properties>
     <upstream.github>GoogleWebComponents</upstream.github>
-    <upstream.version>0.4.3</upstream.version>
   </properties>
 
   <dependencies>

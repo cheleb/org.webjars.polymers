@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>paper-docs</artifactId>
-  <name>paper-docs</name>
+  <version>0.5.5</version>
+  <name>paper-docs...............................[${project.version}]</name>
   <description>WebJar for Polymer paper-docs</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

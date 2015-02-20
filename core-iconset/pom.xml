@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-iconset</artifactId>
-  <name>core-iconset</name>
+  <version>0.5.4</version>
+  <name>core-iconset.............................[${project.version}]</name>
   <description>WebJar for Polymer core-iconset</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

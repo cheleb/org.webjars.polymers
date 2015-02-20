@@ -12,23 +12,23 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-animation</artifactId>
-  <name>core-animation</name>
+  <version>0.5.4</version>
+  <name>core-animation...........................[${project.version}]</name>
   <description>WebJar for Polymer core-animation</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
+      <artifactId>web-animations-js</artifactId>
+      <version>1.0.6</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>web-animations-js</artifactId>
+      <artifactId>polymer</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

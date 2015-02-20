@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>highlightjs-element</artifactId>
-  <name>highlightjs-element</name>
+  <version>0.5.4</version>
+  <name>highlightjs-element......................[${project.version}]</name>
   <description>WebJar for Polymer highlightjs-element</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

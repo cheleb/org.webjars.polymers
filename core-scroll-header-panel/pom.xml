@@ -12,23 +12,23 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-scroll-header-panel</artifactId>
-  <name>core-scroll-header-panel</name>
+  <version>0.5.4</version>
+  <name>core-scroll-header-panel.................[${project.version}]</name>
   <description>WebJar for Polymer core-scroll-header-panel</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-media-query</artifactId>
+      <artifactId>core-toolbar</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-label</artifactId>
+      <artifactId>core-icon-button</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -38,17 +38,17 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-toolbar</artifactId>
+      <artifactId>core-label</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-media-query</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>core-input</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icon-button</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

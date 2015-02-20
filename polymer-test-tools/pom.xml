@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>polymer-test-tools</artifactId>
-  <name>polymer-test-tools</name>
+  <version>0.5.4</version>
+  <name>polymer-test-tools.......................[${project.version}]</name>
   <description>WebJar for Polymer polymer-test-tools</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-collapse</artifactId>
-  <name>core-collapse</name>
+  <version>0.5.4</version>
+  <name>core-collapse............................[${project.version}]</name>
   <description>WebJar for Polymer core-collapse</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

@@ -12,15 +12,25 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>paper-icon-button</artifactId>
-  <name>paper-icon-button</name>
+  <version>0.5.4</version>
+  <name>paper-icon-button........................[${project.version}]</name>
   <description>WebJar for Polymer paper-icon-button</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>paper-button</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-icon</artifactId>
+      <version>0.5.4</version>
+    </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>paper-ripple</artifactId>
@@ -34,16 +44,6 @@
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>core-icons</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icon</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>paper-button</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

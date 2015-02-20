@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-shared-lib</artifactId>
-  <name>core-shared-lib</name>
+  <version>0.5.4</version>
+  <name>core-shared-lib..........................[${project.version}]</name>
   <description>WebJar for Polymer core-shared-lib</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

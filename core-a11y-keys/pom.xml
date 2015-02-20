@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-a11y-keys</artifactId>
-  <name>core-a11y-keys</name>
+  <version>0.5.4</version>
+  <name>core-a11y-keys...........................[${project.version}]</name>
   <description>WebJar for Polymer core-a11y-keys</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

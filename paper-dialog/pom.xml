@@ -12,20 +12,15 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>paper-dialog</artifactId>
-  <name>paper-dialog</name>
+  <version>0.5.4</version>
+  <name>paper-dialog.............................[${project.version}]</name>
   <description>WebJar for Polymer paper-dialog</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>paper-button</artifactId>
-      <version>0.5.4</version>
-    </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>core-overlay</artifactId>
@@ -33,7 +28,12 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>paper-shadow</artifactId>
+      <artifactId>polymer</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>paper-button</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -43,7 +43,7 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>paper-shadow</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

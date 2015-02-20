@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>extern-generator</artifactId>
-  <name>extern-generator</name>
+  <version>0.5.0</version>
+  <name>extern-generator.........................[${project.version}]</name>
   <description>WebJar for Polymer extern-generator</description>
 
   <properties>
     <upstream.github>PolymerLabs</upstream.github>
-    <upstream.version>0.5.0</upstream.version>
   </properties>
 
   <dependencies>

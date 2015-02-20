@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-selection</artifactId>
-  <name>core-selection</name>
+  <version>0.5.4</version>
+  <name>core-selection...........................[${project.version}]</name>
   <description>WebJar for Polymer core-selection</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

@@ -12,35 +12,15 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>topeka-elements</artifactId>
-  <name>topeka-elements</name>
+  <version>0.5.2</version>
+  <name>topeka-elements..........................[${project.version}]</name>
   <description>WebJar for Polymer topeka-elements</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.2</upstream.version>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-animated-pages</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-ajax</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-style</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>paper-elements</artifactId>
-      <version>0.5.4</version>
-    </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>core-drawer-panel</artifactId>
@@ -59,6 +39,21 @@
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>font-roboto</artifactId>
+      <version>0.5.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-icon-button</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-animated-pages</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-ajax</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -68,7 +63,12 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icon-button</artifactId>
+      <artifactId>paper-elements</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-style</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

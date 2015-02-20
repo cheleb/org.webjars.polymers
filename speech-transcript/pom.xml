@@ -12,19 +12,19 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>speech-transcript</artifactId>
-  <name>speech-transcript</name>
+  <version>0.5.0</version>
+  <name>speech-transcript........................[${project.version}]</name>
   <description>WebJar for Polymer speech-transcript</description>
 
   <properties>
     <upstream.github>PolymerLabs</upstream.github>
-    <upstream.version>0.5.0</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>speech-mic</artifactId>
-      <version>0.5.4</version>
+      <version>0.5.0</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>

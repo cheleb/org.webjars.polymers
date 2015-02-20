@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>paper-shadow</artifactId>
-  <name>paper-shadow</name>
+  <version>0.5.4</version>
+  <name>paper-shadow.............................[${project.version}]</name>
   <description>WebJar for Polymer paper-shadow</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

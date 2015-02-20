@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-ajax</artifactId>
-  <name>core-ajax</name>
+  <version>0.5.4</version>
+  <name>core-ajax................................[${project.version}]</name>
   <description>WebJar for Polymer core-ajax</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

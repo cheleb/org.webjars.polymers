@@ -12,18 +12,18 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-popup-menu</artifactId>
-  <name>core-popup-menu</name>
+  <version>0.5.4</version>
+  <name>core-popup-menu..........................[${project.version}]</name>
   <description>WebJar for Polymer core-popup-menu</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-overlay</artifactId>
+      <artifactId>core-item</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -33,7 +33,12 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-menu</artifactId>
+      <artifactId>core-icon-button</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-overlay</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -43,17 +48,12 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icon-button</artifactId>
+      <artifactId>core-menu</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>core-icons</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-item</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

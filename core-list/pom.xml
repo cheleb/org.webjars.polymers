@@ -12,18 +12,18 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-list</artifactId>
-  <name>core-list</name>
+  <version>0.5.4</version>
+  <name>core-list................................[${project.version}]</name>
   <description>WebJar for Polymer core-list</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-selection</artifactId>
+      <artifactId>polymer</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -33,7 +33,7 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>core-selection</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

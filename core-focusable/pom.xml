@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-focusable</artifactId>
-  <name>core-focusable</name>
+  <version>0.5.4</version>
+  <name>core-focusable...........................[${project.version}]</name>
   <description>WebJar for Polymer core-focusable</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

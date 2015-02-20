@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>notification-elements</artifactId>
-  <name>notification-elements</name>
+  <version>0.5.0</version>
+  <name>notification-elements....................[${project.version}]</name>
   <description>WebJar for Polymer notification-elements</description>
 
   <properties>
     <upstream.github>PolymerLabs</upstream.github>
-    <upstream.version>0.5.0</upstream.version>
   </properties>
 
   <dependencies>

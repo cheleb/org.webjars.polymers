@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>github-elements</artifactId>
-  <name>github-elements</name>
+  <version>0.5.0</version>
+  <name>github-elements..........................[${project.version}]</name>
   <description>WebJar for Polymer github-elements</description>
 
   <properties>
     <upstream.github>PolymerLabs</upstream.github>
-    <upstream.version>0.5.0</upstream.version>
   </properties>
 
   <dependencies>
@@ -29,7 +29,7 @@
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>github</artifactId>
-      <version>0.5.4</version>
+      <version>10.1</version>
     </dependency>
   </dependencies>
 </project>

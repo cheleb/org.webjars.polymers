@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-meta</artifactId>
-  <name>core-meta</name>
+  <version>0.5.4</version>
+  <name>core-meta................................[${project.version}]</name>
   <description>WebJar for Polymer core-meta</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

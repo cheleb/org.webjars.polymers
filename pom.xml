@@ -18,15 +18,16 @@
   <url>http://webjars.org</url>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <polymer.version>0.5.4</polymer.version>
     <upstream.version>${project.version}</upstream.version>
     <upstream.version.prefix />
     <upstream.module>${project.artifactId}</upstream.module>
     <upstream.github>Polymer</upstream.github>
-    <upstream.url>https://github.com/${upstream.github}/${project.artifactId}/archive/${upstream.version.prefix}${upstream.version}.zip</upstream.url>
+    <upstream.url>https://github.com/${upstream.github}/${upstream.module}/archive/${upstream.version.prefix}${upstream.version}.zip</upstream.url>
     <destDir>
-      ${project.build.outputDirectory}/META-INF/resources/webjars/polymers/${project.version}/${project.artifactId}
+      ${project.build.outputDirectory}/META-INF/resources/webjars/polymers/${polymer.version}/${project.artifactId}
     </destDir>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
 
@@ -212,9 +213,9 @@
                 <configuration>
                   <target>
                     <echo message="download archive"/>
-                    <get src="${upstream.url}" dest="${basedir}/${project.artifactId}.zip" skipexisting="true"/>
+                    <get src="${upstream.url}" dest="${basedir}/${project.artifactId}-${upstream.version}.zip" skipexisting="true"/>
                     <echo message="unzip archive"/>
-                    <unzip src="${basedir}/${project.artifactId}.zip"
+                    <unzip src="${basedir}/${project.artifactId}-${upstream.version}.zip"
                            dest="${project.build.directory}"/>
                     <echo message="moving resources"/>
                     <move todir="${destDir}">

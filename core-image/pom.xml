@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-image</artifactId>
-  <name>core-image</name>
+  <version>0.5.4</version>
+  <name>core-image...............................[${project.version}]</name>
   <description>WebJar for Polymer core-image</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

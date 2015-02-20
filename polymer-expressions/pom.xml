@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>polymer-expressions</artifactId>
-  <name>polymer-expressions</name>
+  <version>0.5.4</version>
+  <name>polymer-expressions......................[${project.version}]</name>
   <description>WebJar for Polymer polymer-expressions</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

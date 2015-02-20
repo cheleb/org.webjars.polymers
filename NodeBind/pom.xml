@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>NodeBind</artifactId>
-  <name>NodeBind</name>
+  <version>0.5.4</version>
+  <name>NodeBind.................................[${project.version}]</name>
   <description>WebJar for Polymer NodeBind</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

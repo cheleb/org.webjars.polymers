@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>observe-js</artifactId>
-  <name>observe-js</name>
+  <version>0.5.4</version>
+  <name>observe-js...............................[${project.version}]</name>
   <description>WebJar for Polymer observe-js</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

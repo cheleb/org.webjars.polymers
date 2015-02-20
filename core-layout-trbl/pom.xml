@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-layout-trbl</artifactId>
-  <name>core-layout-trbl</name>
+  <version>0.5.4</version>
+  <name>core-layout-trbl.........................[${project.version}]</name>
   <description>WebJar for Polymer core-layout-trbl</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

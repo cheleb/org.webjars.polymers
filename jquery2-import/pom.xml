@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>jquery2-import</artifactId>
-  <name>jquery2-import</name>
+  <version>0.5.4</version>
+  <name>jquery2-import...........................[${project.version}]</name>
   <description>WebJar for Polymer jquery2-import</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

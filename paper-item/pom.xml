@@ -12,20 +12,15 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>paper-item</artifactId>
-  <name>paper-item</name>
+  <version>0.5.4</version>
+  <name>paper-item...............................[${project.version}]</name>
   <description>WebJar for Polymer paper-item</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icons</artifactId>
-      <version>0.5.4</version>
-    </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>polymer</artifactId>
@@ -38,7 +33,7 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>paper-ripple</artifactId>
+      <artifactId>core-selector</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -53,13 +48,18 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>font-roboto</artifactId>
+      <artifactId>paper-ripple</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-selector</artifactId>
+      <artifactId>core-icons</artifactId>
       <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>font-roboto</artifactId>
+      <version>0.5.5</version>
     </dependency>
   </dependencies>
 </project>

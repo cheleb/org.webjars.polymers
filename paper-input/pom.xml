@@ -12,20 +12,15 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>paper-input</artifactId>
-  <name>paper-input</name>
+  <version>0.5.4</version>
+  <name>paper-input..............................[${project.version}]</name>
   <description>WebJar for Polymer paper-input</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-input</artifactId>
-      <version>0.5.4</version>
-    </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>core-icon</artifactId>
@@ -33,7 +28,12 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-style</artifactId>
+      <artifactId>core-icons</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-input</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -43,7 +43,7 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icons</artifactId>
+      <artifactId>core-style</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

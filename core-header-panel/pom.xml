@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-header-panel</artifactId>
-  <name>core-header-panel</name>
+  <version>0.5.4</version>
+  <name>core-header-panel........................[${project.version}]</name>
   <description>WebJar for Polymer core-header-panel</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

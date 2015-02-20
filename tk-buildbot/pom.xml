@@ -12,23 +12,23 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>tk-buildbot</artifactId>
-  <name>tk-buildbot</name>
+  <version>0.5.0</version>
+  <name>tk-buildbot..............................[${project.version}]</name>
   <description>WebJar for Polymer tk-buildbot</description>
 
   <properties>
     <upstream.github>PolymerLabs</upstream.github>
-    <upstream.version>0.5.0</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>core-ajax</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-ajax</artifactId>
+      <artifactId>polymer</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>polymer-gestures</artifactId>
-  <name>polymer-gestures</name>
+  <version>0.5.4</version>
+  <name>polymer-gestures.........................[${project.version}]</name>
   <description>WebJar for Polymer polymer-gestures</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

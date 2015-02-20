@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-animated-pages</artifactId>
-  <name>core-animated-pages</name>
+  <version>0.5.4</version>
+  <name>core-animated-pages......................[${project.version}]</name>
   <description>WebJar for Polymer core-animated-pages</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
@@ -28,12 +28,7 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-style</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>core-resizable</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -43,7 +38,12 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-resizable</artifactId>
+      <artifactId>polymer</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-style</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

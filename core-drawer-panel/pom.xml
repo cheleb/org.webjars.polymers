@@ -12,23 +12,23 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-drawer-panel</artifactId>
-  <name>core-drawer-panel</name>
+  <version>0.5.4</version>
+  <name>core-drawer-panel........................[${project.version}]</name>
   <description>WebJar for Polymer core-drawer-panel</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-selector</artifactId>
+      <artifactId>core-media-query</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-media-query</artifactId>
+      <artifactId>core-selector</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

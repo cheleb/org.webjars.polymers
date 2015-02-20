@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-icon</artifactId>
-  <name>core-icon</name>
+  <version>0.5.4</version>
+  <name>core-icon................................[${project.version}]</name>
   <description>WebJar for Polymer core-icon</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>

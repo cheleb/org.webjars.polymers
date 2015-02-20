@@ -12,12 +12,12 @@
   
   <groupId>org.webjars.polymers</groupId>
   <artifactId>core-drag-drop</artifactId>
-  <name>core-drag-drop</name>
+  <version>0.5.5</version>
+  <name>core-drag-drop...........................[${project.version}]</name>
   <description>WebJar for Polymer core-drag-drop</description>
 
   <properties>
     <upstream.github>Polymer</upstream.github>
-    <upstream.version>0.5.4</upstream.version>
   </properties>
 
   <dependencies>
