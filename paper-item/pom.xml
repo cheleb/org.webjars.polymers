@@ -23,12 +23,12 @@
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>core-icon</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icon</artifactId>
+      <artifactId>core-icons</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -38,8 +38,8 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>paper-shadow</artifactId>
-      <version>0.5.4</version>
+      <artifactId>font-roboto</artifactId>
+      <version>0.5.5</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
@@ -53,13 +53,13 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icons</artifactId>
+      <artifactId>paper-shadow</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>font-roboto</artifactId>
-      <version>0.5.5</version>
+      <artifactId>polymer</artifactId>
+      <version>0.5.4</version>
     </dependency>
   </dependencies>
 </project>

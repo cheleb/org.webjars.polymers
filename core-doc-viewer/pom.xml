@@ -23,27 +23,7 @@
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-header-panel</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-item</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>marked-element</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icon-button</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-toolbar</artifactId>
+      <artifactId>context-free-parser</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -53,12 +33,12 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>context-free-parser</artifactId>
+      <artifactId>core-header-panel</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>prettify-element</artifactId>
+      <artifactId>core-icon-button</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -68,7 +48,27 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-item</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
       <artifactId>core-menu</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-toolbar</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>marked-element</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>prettify-element</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

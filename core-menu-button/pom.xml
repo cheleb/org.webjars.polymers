@@ -23,16 +23,6 @@
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icons</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-item</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
       <artifactId>core-a11y-keys</artifactId>
       <version>0.5.4</version>
     </dependency>
@@ -43,12 +33,22 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-dropdown</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
       <artifactId>core-icon-button</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-dropdown</artifactId>
+      <artifactId>core-icons</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-item</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>

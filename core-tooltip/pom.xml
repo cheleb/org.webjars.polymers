@@ -23,12 +23,7 @@
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>paper-fab</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
+      <artifactId>core-focusable</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -38,12 +33,17 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-focusable</artifactId>
+      <artifactId>core-resizable</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-resizable</artifactId>
+      <artifactId>paper-fab</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>polymer</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

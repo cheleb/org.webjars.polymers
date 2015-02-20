@@ -23,7 +23,7 @@
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-toolbar</artifactId>
+      <artifactId>core-drawer-panel</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -38,7 +38,7 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-drawer-panel</artifactId>
+      <artifactId>core-toolbar</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

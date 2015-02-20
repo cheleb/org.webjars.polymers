@@ -23,23 +23,23 @@
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-icons</artifactId>
+      <artifactId>core-animation</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>x-meta</artifactId>
-      <version>0.5.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-animation</artifactId>
+      <artifactId>core-icons</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
       <artifactId>core-pages</artifactId>
       <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>x-meta</artifactId>
+      <version>0.5.0</version>
     </dependency>
   </dependencies>
 </project>

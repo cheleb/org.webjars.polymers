@@ -23,7 +23,7 @@
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-toolbar</artifactId>
+      <artifactId>core-label</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -33,12 +33,7 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-resizable</artifactId>
-      <version>0.5.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-label</artifactId>
+      <artifactId>core-input</artifactId>
       <version>0.5.4</version>
     </dependency>
     <dependency>
@@ -48,7 +43,12 @@
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-input</artifactId>
+      <artifactId>core-resizable</artifactId>
+      <version>0.5.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>core-toolbar</artifactId>
       <version>0.5.4</version>
     </dependency>
   </dependencies>

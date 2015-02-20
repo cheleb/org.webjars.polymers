@@ -23,13 +23,13 @@
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>web-animations-js</artifactId>
-      <version>1.0.6</version>
+      <artifactId>polymer</artifactId>
+      <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
+      <artifactId>web-animations-js</artifactId>
+      <version>1.0.6</version>
     </dependency>
   </dependencies>
 </project>

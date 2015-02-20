@@ -8,7 +8,8 @@ use strict;
 my $dependencies_hacks = {
    'core-icon' => {"core-icons"=>1},
    'core-iconset' => {"core-icon" => 1},
-   'polymer' => {"core-component-page" => 1}
+   'polymer' => {"core-component-page" => 1},
+   'paper-docs' => {"paper-doc-viewer" => 1}
 };
 
 my $dir = shift
@@ -31,10 +32,9 @@ print &github_account, "\n";
 
 system "git branch -D $lastTag  > /dev/null 2>&1" unless $lastTag eq "master";
 system "git checkout $lastTag -b $lastTag > /dev/null 2>&1";
-my ($version, $deps) = &dependencies();
-foreach ( keys %$deps){
-   print $_, "\n" unless $dhacks && $dhacks->{$_};
-}
+
+&dependencies($dhacks);
+
 system "git checkout master > /dev/null 2>&1";
 
 
@@ -61,21 +61,37 @@ sub github_account {
 }
 
 sub dependencies {
-binmode STDOUT, ":utf8";
-use utf8;
+  my $dhacks = shift;
+  binmode STDOUT, ":utf8";
+  use utf8;
 
-use JSON;
+  use JSON;
 
-my $json;
-{
-  local $/; #Enable 'slurp' mode
-  open my $fh, "<", "bower.json";
-  $json = <$fh>;
-  close $fh;
-}
-return (undef, {}) unless $json;
-my $data = decode_json($json);
-# Output to screen one of the values read
+  if(-e "bower.json"){
+    local $/; #Enable 'slurp' mode
+    open my $fh, "<", "bower.json";
+    my $json = <$fh>;
+    close $fh;
+    my $data = decode_json($json);
+    # Output to screen one of the values read
 
-return ($data->{version}, $data->{dependencies} )
-}
+    foreach ( keys %{$data->{dependencies}}){
+      print $_, "\n" unless $dhacks && $dhacks->{$_};
+    }
+
+  }else{
+    my @htmls = <"*.html">;
+    foreach my $html (@htmls){
+          open my $fh, "<", $html;
+            while(<$fh>){
+              chomp;
+              if(m!<link rel="import" href="\.\./([^/]+)/.*!){
+                my $d = $1;
+                print $d, "\n" unless $dhacks && $dhacks->{$d};
+              }
+            }
+          close $fh;
+       }
+     }
+
+  }

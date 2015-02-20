@@ -23,13 +23,13 @@
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
+      <artifactId>google-code-prettify</artifactId>
+      <version>1.0.3</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>google-code-prettify</artifactId>
-      <version>1.0.3</version>
+      <artifactId>polymer</artifactId>
+      <version>0.5.4</version>
     </dependency>
   </dependencies>
 </project>

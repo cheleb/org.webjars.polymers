@@ -23,13 +23,13 @@
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>font-roboto</artifactId>
-      <version>0.5.5</version>
+      <artifactId>core-media-query</artifactId>
+      <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>core-media-query</artifactId>
-      <version>0.5.4</version>
+      <artifactId>font-roboto</artifactId>
+      <version>0.5.5</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>

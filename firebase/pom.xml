@@ -22,5 +22,10 @@
     <upstream.module>firebase-bower</upstream.module>  </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.webjars.polymers</groupId>
+      <artifactId>polymer</artifactId>
+      <version>0.5.4</version>
+    </dependency>
   </dependencies>
 </project>

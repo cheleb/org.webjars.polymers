@@ -23,13 +23,13 @@
   <dependencies>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>speech-mic</artifactId>
-      <version>0.5.0</version>
+      <artifactId>polymer</artifactId>
+      <version>0.5.4</version>
     </dependency>
     <dependency>
       <groupId>org.webjars.polymers</groupId>
-      <artifactId>polymer</artifactId>
-      <version>0.5.4</version>
+      <artifactId>speech-mic</artifactId>
+      <version>0.5.0</version>
     </dependency>
   </dependencies>
 </project>

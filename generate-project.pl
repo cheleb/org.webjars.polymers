@@ -103,7 +103,10 @@ foreach my $project (@components) {
 
     $pinfos->{$artifactId}->{github} = $github;
 
-    my @dependencies = <INFO>;
+    my @dependencies = sort <INFO>;
+
+
+    push @dependencies, 'polymer'  if $#dependencies == -1;
 
     $pinfos->{$artifactId}->{deps} = \@dependencies;
 
